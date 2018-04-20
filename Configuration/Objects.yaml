@@ -1,0 +1,12 @@
+Acme\LogProblem\Log\ProblemLoggerInterface:
+  factoryObjectName: 'Neos\Flow\Log\LoggerFactory'
+  scope: 'singleton'
+  arguments:
+    1:
+      value: 'ProblemLogger'
+    2:
+      setting: Neos.Flow.log.systemLogger.logger
+    3:
+      setting: Neos.Flow.log.systemLogger.backend
+    4:
+      setting: Neos.Flow.log.systemLogger.backendOptions
